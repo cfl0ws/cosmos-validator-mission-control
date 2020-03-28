@@ -1,12 +1,13 @@
 package server
 
 import (
-	"chainflow-vitwit/alert-bot/config"
 	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/config"
 )
 
 // JailedAlerting to send transaction alert to telegram and mail

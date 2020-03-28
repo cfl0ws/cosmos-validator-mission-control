@@ -1,10 +1,11 @@
 package server
 
 import (
-	"chainflow-vitwit/alert-bot/config"
 	"encoding/json"
 	"fmt"
 	"log"
+
+	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/config"
 )
 
 // SendSingleMissedBlockAlert to send missed block alerting

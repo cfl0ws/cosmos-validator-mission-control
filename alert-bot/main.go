@@ -1,8 +1,8 @@
 package main
 
 import (
-	"chainflow-vitwit/alert-bot/config"
-	"chainflow-vitwit/alert-bot/server"
+	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/config"
+	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/server"
 	"fmt"
 	"log"
 	"sync"

@@ -1,9 +1,10 @@
 package server
 
 import (
-	"chainflow-vitwit/alert-bot/alerting"
-	"chainflow-vitwit/alert-bot/config"
 	"log"
+
+	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/alerting"
+	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/config"
 )
 
 // SendTelegramAlert sends the alert to telegram chat
