@@ -1,12 +1,13 @@
 package main
 
 import (
-	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/config"
-	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/server"
 	"fmt"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/config"
+	"github.com/chris-remus/chainflow-icf-validator-tool-grant/alert-bot/server"
 )
 
 func main() {
